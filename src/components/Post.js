@@ -4,11 +4,14 @@ function Post() {
   return (
     <div className='mt-5 rounded-lg border border-slate-300 bg-white'>
         <div className='p-2 flex flex-row justify-between'>
-            <div className='flex flex-row space-x-2'>
-            <img className='rounded-full h-10 w-10' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVO4NvzDaxkFj5PFhS2CPo-dR_3Or4I49YdQ&usqp=CAU" />
-            <p className='mt-3 text-xs font-semibold'>Grant Cardone</p>
+            <div className='flex flex-row '>
+            <img className='rounded-full h-8 w-8  m-2' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVO4NvzDaxkFj5PFhS2CPo-dR_3Or4I49YdQ&usqp=CAU" />
+            <div className='flex flex-col'>
+                <p className='mt-1.5 text-sm font-semibold'>Grant Cardone</p>
+                <p className=' text-sm '>Post</p>
             </div>
-            <EllipsisHorizontalIcon className='h-8 w-8 m-2' />
+            </div>
+            <EllipsisHorizontalIcon className='h-6 w-6 m-3' />
         </div>
         <img className=' object-cover w-full h-[400px]' src="https://m.media-amazon.com/images/I/81SbC-kLmXL.jpg" />
         <div className='flex flex-row justify-between p-2'>
@@ -25,7 +28,7 @@ function Post() {
             <p className='text-xs'>15,214 Me gusta</p>
         </div>
         <div className='w-full p-2'>
-            <p className='text-xs'><b>Grant Cardone</b>If you want to make 2022 your best year ever, then read this short caption for 1 minute</p>
+            <p className='text-xs'><b>Grant Cardone</b> If you want to make 2022 your best year ever, then read this short caption for 1 minute</p>
 
         </div>
         <hr className='w-[90%] mx-auto'/>

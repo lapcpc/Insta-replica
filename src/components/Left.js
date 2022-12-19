@@ -4,7 +4,7 @@ import TopFeed from './TopFeed'
 
 function Left() {
   return (
-    <div className=' w-[64%] '>
+    <div className=' w-[80%] '>
         <TopFeed />
         <Post />
     </div>
