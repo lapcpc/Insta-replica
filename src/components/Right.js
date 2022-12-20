@@ -4,7 +4,7 @@ function Right() {
   const cantidad = [1,2,3,4]
 
   return (
-    <div className='m-6 mt-9  w-[50%] '>
+    <div className='m-6 mt-9 hidden lg:inline w-[50%] '>
       <div className='flex flex-row m-2 col-span-1  justify-between '>
         <div className='flex flex-row space-x-5'>
           <img className='w-14 h-14 object-cover rounded-full' src="https://pbs.twimg.com/profile_images/1561604184289558529/Bq62M5zI_400x400.jpg" />
